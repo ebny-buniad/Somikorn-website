@@ -654,7 +654,41 @@ h5{
     text-align: justify;
 }
 
-
+#about_us_bg{
+    margin-top: 50px !important;
+    max-width: 75%;
+    margin: auto;
+    display: block;
+}
 
 
 /* ================================= ABOUT END================================ */
+
+
+
+
+/* ================================= SERVICES START ================================ */
+
+/* Recommendation Engine Start */
+.recomendation_engine_bg{
+    max-width: 85%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.recomendation_engine_bg:hover{
+    transform: scale(1.1);
+}
+
+.recomendation_engine_text{
+    text-align: justify;
+}
+
+/* Recommendation Engine End */
+
+
+
+
+/* ================================= SERVICES END ================================ */
