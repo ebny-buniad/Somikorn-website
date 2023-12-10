@@ -671,7 +671,7 @@ h5{
 
 /* Recommendation Engine Start */
 .recomendation_engine_bg{
-    max-width: 85%;
+    max-width: 95%;
     margin: auto;
     display: block;
     margin-top: 50px;
@@ -679,7 +679,7 @@ h5{
 }
 
 .recomendation_engine_bg:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .recomendation_engine_text{
