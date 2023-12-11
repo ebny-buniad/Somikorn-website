@@ -707,6 +707,10 @@ h5{
 
 /* ================================= SERVICES END ================================ */
 
+
+
+/* ================================= CONTACT US START ================================ */
+
 .form-control{
     padding: 10px !important;
     transition: 0.2s;
@@ -733,3 +737,65 @@ h5{
     outline: 0;
     box-shadow: none !important;
 }
+
+@media (min-width: 320px){
+    iframe{
+        width: 278px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 375px){
+    iframe{
+        width: 332px;
+        height: 200px;
+    }
+}
+@media (min-width: 400px){
+    iframe{
+        width: 370px !important;
+        height: 200px;
+    }
+}
+@media (min-width: 425px){
+    iframe{
+        width: 385px !important;
+        height: 200px;
+    }
+}
+
+@media (min-width: 480px){
+    iframe{
+        width: 678px !important;
+        height: 200px;
+    }
+}
+@media (min-width: 768px){
+    iframe{
+        width: 678px !important;
+        height: 300px;
+    }
+}
+
+
+@media (min-width: 1024px){
+    iframe{
+        width: 427px !important;
+        height: 400px;
+    }
+}
+@media (min-width: 1200px){
+    iframe{
+        width: 778px;
+        height: 400px;
+    }
+}
+@media (min-width: 1440px){
+    iframe{
+        width: 606px !important;
+        height: 400px;
+    }
+}
+
+
+/* ================================= CONTACT US END ================================ */
