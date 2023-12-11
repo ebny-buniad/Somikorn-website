@@ -725,3 +725,11 @@ h5{
     font-size: 13px !important;
     padding: 15px !important;
 }
+
+.message_btn:focus{
+    color: #939393;
+    background-color: #ffffffff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none !important;
+}
