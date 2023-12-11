@@ -786,7 +786,7 @@ h5{
 }
 @media (min-width: 1200px){
     iframe{
-        width: 778px;
+        width: 518px !important;
         height: 400px;
     }
 }
@@ -796,6 +796,5 @@ h5{
         height: 400px;
     }
 }
-
 
 /* ================================= CONTACT US END ================================ */
