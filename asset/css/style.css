@@ -82,6 +82,22 @@
       }
   }
 
+  
+.side_bars:focus{
+    color: #939393;
+    background-color: #ffffffff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none !important;
+}
+.btn-close{
+    color: #939393;
+    background-color: #ffffffff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none !important;
+}
+
   .nav-option{
     margin-right: 15px;
   }
@@ -689,6 +705,23 @@ h5{
 /* Recommendation Engine End */
 
 
-
-
 /* ================================= SERVICES END ================================ */
+
+.form-control{
+    padding: 10px !important;
+    transition: 0.2s;
+}
+.form-control:focus{
+    color: #939393;
+    background-color: #ffffffff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.btn-color{
+    background-color:#083f88 !important;
+    color: #ffffffff !important;
+    font-size: 13px !important;
+    padding: 15px !important;
+}
