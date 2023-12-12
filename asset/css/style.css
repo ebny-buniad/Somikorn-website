@@ -673,6 +673,37 @@ h5{
 
 /* Why Somikorn End */
 
+
+/* Mission & Vision Start */
+
+@media (min-width: 320px){
+    .about_us_title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px){
+    .about_us_title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1024px){
+    .about_us_title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1440px){
+    .about_us_title{
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+}
+/* Mission & Vision End */
+
 /* ================================= ABOUT END================================ */
 
 
