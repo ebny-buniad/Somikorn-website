@@ -704,6 +704,23 @@ h5{
 }
 /* Mission & Vision End */
 
+/* Our Team Start */
+.team_image{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.team_name{
+    font-family: 'K2D';
+    margin-top: 10px;
+    text-align: center;
+}
+.team_social{
+    font-size: 25px;
+    color: #083f88;
+    padding-right: 15px;
+}
+/* Our Team End */
+
 /* ================================= ABOUT END================================ */
 
 
