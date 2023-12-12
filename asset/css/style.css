@@ -665,18 +665,13 @@ h5{
 
 /* ================================= ABOUT START================================ */
 
-/* About Us Start */
-.about_us{
+/* Why Somikorn Start */
+
+.why_somikorn_text1{
     text-align: justify;
 }
 
-#about_us_bg{
-    margin-top: 50px !important;
-    max-width: 75%;
-    margin: auto;
-    display: block;
-}
-
+/* Why Somikorn End */
 
 /* ================================= ABOUT END================================ */
 
@@ -686,6 +681,9 @@ h5{
 /* ================================= SERVICES START ================================ */
 
 /* Recommendation Engine Start */
+.service_title{
+    font-family: 'K2D';
+}
 .recomendation_engine_bg{
     max-width: 95%;
     margin: auto;
@@ -775,6 +773,9 @@ h5{
     iframe{
         width: 678px !important;
         height: 300px;
+    }   
+    .address_details{
+        margin-left: 50px;
     }
 }
 
@@ -784,17 +785,26 @@ h5{
         width: 427px !important;
         height: 400px;
     }
+    .address_details{
+        margin-left: 100px;
+    }
 }
 @media (min-width: 1200px){
     iframe{
         width: 518px !important;
         height: 400px;
     }
+    .address_details{
+        margin-left: 100px;
+    }
 }
 @media (min-width: 1440px){
     iframe{
         width: 606px !important;
         height: 400px;
+    }
+    .address_details{
+        margin-left: 100px;
     }
 }
 
