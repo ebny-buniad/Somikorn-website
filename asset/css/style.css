@@ -13,7 +13,7 @@
         overflow-x: hidden;
         overflow-y: scroll;
     }
-/* ===========================================================MOBILE RESPONSIVE================================================= */
+
 
 /* =====Nav Bar Start====== */
 .active:hover{
@@ -276,9 +276,12 @@
 /* =====Nav Bar End====== */
 
 
-/* =====Second Part Start ====== */
 
-/* mobile responsive */
+
+/* ============ Home Page Start ============ */
+
+
+/* Second Part Start */
 @media (min-width: 320px){
     body{
         padding-top: 3.5rem;
@@ -507,8 +510,6 @@
         color: #ffffffff;
     }
 }
-
-
 #first_part_bg{
     width: 100%;
     margin-top: 10px;
@@ -527,7 +528,6 @@
     }
     .third_part_para{
         text-align: justify;
-
     }
 }
 
@@ -600,7 +600,6 @@
     margin-top: 30px;
     margin-bottom: 40px;
 }
-
 .service_card{
     box-shadow: rgba(98, 98, 185, 0.15) 0px 2px 5px 0px, rgba(10, 10, 10, 0.05) 0px 1px 1px 0px;   
     transition: background-color .2s ease-out 100ms;
@@ -608,7 +607,6 @@
     background: #ffffffff;
     border-radius: 15px;
 }
-
 .card_details{
     text-align: center;
 }
@@ -617,7 +615,6 @@
     text-align: center;
     margin-top: 20px;
 }
-
 @media (min-width: 320px){
     .card_title{
         font-size: 16px;
@@ -633,8 +630,6 @@
         display: none;
     }
 }
-
-
 @media (min-width: 400px){
     .card_title{
         font-size: 17px;
@@ -647,7 +642,6 @@
         display: none;
     }
 }
-
 @media (min-width: 480px){
     .card_title{
         font-size: 17px;
@@ -660,7 +654,6 @@
         display: none;
     }
 }
-
 @media (min-width: 768px){
     .card_title{
         font-size: 18px;
@@ -681,7 +674,6 @@
         text-align: center;
         margin-bottom: 30px;
     }
-    
     .second_line_br{
         display: block;
     }
@@ -697,7 +689,6 @@
         text-align: center;
         margin-bottom: 30px;
     }
-    
     .second_line_br{
         display: none;
     }
@@ -707,10 +698,10 @@
 }
 /* =====Fourth Part End ====== */
 
+/* ============ Home Page Start ============ */
 
 /* ================================= Footer Start ================================= */
 
-/* New version */
 .footer_logo{
     width: 200px;
 }
@@ -781,7 +772,6 @@ h5{
         padding-left: 24px !important;
     }
 }
-
 .copy_right{
     text-align: center;
     margin-bottom: 0px;
@@ -824,7 +814,6 @@ h5{
         margin-bottom: 30px;
     }
 }
-
 @media (min-width: 768px){
     .about_us_title{
         margin-top: 30px;
@@ -868,7 +857,7 @@ h5{
 
 
 
-/* ================================= SERVICES START ================================ */
+/* ================================= SERVICES START =========================== */
 
 /* Recommendation Engine Start */
 .service_title{
@@ -881,11 +870,9 @@ h5{
     margin-top: 50px;
     transition: 0.3s;
 }
-
 .recomendation_engine_bg:hover{
     transform: scale(1.05);
 }
-
 .recomendation_engine_text{
     text-align: justify;
 }
@@ -905,11 +892,11 @@ h5{
 /* Recommendation Engine End */
 
 
-/* ================================= SERVICES END ================================ */
+/* ================================= SERVICES END ============================== */
 
 
 
-/* ================================= CONTACT US START ================================ */
+/* ================================= CONTACT US START ========================== */
 
 .form-control{
     padding: 10px !important;
@@ -923,14 +910,12 @@ h5{
     outline: 0;
     box-shadow: none !important;
 }
-
 .btn-color{
     background-color:#083f88 !important;
     color: #ffffffff !important;
     font-size: 13px !important;
     padding: 15px !important;
 }
-
 .message_btn:focus{
     color: #939393;
     background-color: #ffffffff;
@@ -938,14 +923,12 @@ h5{
     outline: 0;
     box-shadow: none !important;
 }
-
 @media (min-width: 320px){
     iframe{
         width: 278px;
         height: 200px;
     }
 }
-
 @media (min-width: 375px){
     iframe{
         width: 332px;
@@ -964,7 +947,6 @@ h5{
         height: 200px;
     }
 }
-
 @media (min-width: 480px){
     iframe{
         width: 678px !important;
@@ -980,8 +962,6 @@ h5{
         margin-left: 50px;
     }
 }
-
-
 @media (min-width: 1024px){
     iframe{
         width: 427px !important;
@@ -1010,4 +990,4 @@ h5{
     }
 }
 
-/* ================================= CONTACT US END ================================ */
+/* ================================= CONTACT US END =========================== */
