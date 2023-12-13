@@ -793,6 +793,20 @@ h5{
 
 /* ================================= ABOUT START================================ */
 
+.about_us_images{
+    transition: 0.3s;
+}
+.about_us_images:hover{
+    transform: scale(1.05);
+}
+
+/* About Us Page Start */
+.about_us_page_content{
+    text-align: justify;
+}
+
+/* About Us Page End */
+
 /* Why Somikorn Start */
 
 .why_somikorn_text1{
@@ -874,6 +888,18 @@ h5{
 
 .recomendation_engine_text{
     text-align: justify;
+}
+.try_demo_button{
+    background-color: #083f88;
+    color: #ffffffff;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.try_demo_button:hover{
+    background-color: #00243A;
+    color: #ffffffff;
 }
 
 /* Recommendation Engine End */
