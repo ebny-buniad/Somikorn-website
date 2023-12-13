@@ -1,206 +1,250 @@
 <!doctype html>
 <html class="h-100" lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Data Science Consulting - Somikoron AI</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
-    <!-- Custom Css & Js -->
-    <link rel="stylesheet" href="asset/css/style.css">
-    <link rel="shortcut icon" href="asset/image/fav_icon.png" type="image/x-icon">
-    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Data Science Consulting - Somikoron AI</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
+  <!-- Custom Css & Js -->
+  <link rel="stylesheet" href="asset/css/style.css">
+  <link rel="shortcut icon" href="asset/image/fav_icon.png" type="image/x-icon">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="asset/css/bootstrap.min.css"> -->
 
-    <!-- Goolge Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@200;300;500;800&family=Noto+Sans+Bengali:wght@600&family=Poppins&display=swap" rel="stylesheet">
-    <!-- Another Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@200;300&family=Noto+Sans+Bengali:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="asset/css/bootstrap.min.css"> -->
 
-    <!-- Animated -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css" integrity="sha512-hoGlO+71fSG6lgS60I4bKvsFVB+bAnrVFDYlwSXoyNLppDcoupwJB7KbWq/63iACKn3gcgK9jMXd+T+YDeVrGQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.js" integrity="sha512-tnNM6PPNOVfZ5sGPw6hThCrcUBeqt2mVEk3EAj8tCtuMHqbuVm5/HsZagrr8W2aaFE+6rKIByGwQbEnmodrYVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Goolge Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=K2D:wght@200;300;500;800&family=Noto+Sans+Bengali:wght@600&family=Poppins&display=swap"
+    rel="stylesheet">
+  <!-- Another Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=K2D:wght@200;300&family=Noto+Sans+Bengali:wght@600&family=Poppins&display=swap"
+    rel="stylesheet">
 
-    <!-- Font Awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Animated -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css"
+    integrity="sha512-hoGlO+71fSG6lgS60I4bKvsFVB+bAnrVFDYlwSXoyNLppDcoupwJB7KbWq/63iACKn3gcgK9jMXd+T+YDeVrGQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.js"
+    integrity="sha512-tnNM6PPNOVfZ5sGPw6hThCrcUBeqt2mVEk3EAj8tCtuMHqbuVm5/HsZagrr8W2aaFE+6rKIByGwQbEnmodrYVg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body class="d-flex flex-column h-100">
 
-<!-- ====================Main Start==================== -->
+  <!-- ====================Main Start==================== -->
 
   <main class="flex-shrink-0">
-      
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-          <div class="container" style="padding-left: 28px; padding-top: 5px; padding-bottom: 5px;">
-            <span class=""><a href="index.html"><img id="web_logo" src="asset/logo.svg" alt=""></a></span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item nav-option">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown nav-option">
-                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    About Us
-                  </a>
-                  <ul class="dropdown-menu dropdown-box-item shadow-sm border-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Why Somikoron</a></li>
-                    <li><a class="dropdown-item" href="#">Mission & Vision</a></li>
-                    <li><a class="dropdown-item" href="#">Our Team</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown nav-option">
-                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Services
-                  </a>
-                  <ul class="dropdown-menu dropdown-box-item shadow-sm border-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="recommendation-engine.html">Recommendation Engine</a></li>
-                    <li><a class="dropdown-item" href="insurance-analytics.html">Insurance Analytics</a></li>
-                    <li><a class="dropdown-item" href="data-science-consulting.html">Data Science Consulting</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item nav-option">
-                  <a class="nav-link active" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item nav-option">
-                  <a class="nav-link active" href="contact.html">Contact Us</a>
-                </li>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container" style="padding-left: 28px; padding-top: 5px; padding-bottom: 5px;">
+        <span class=""><a href="index.html"><img id="web_logo" src="asset/logo.svg" alt=""></a></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item nav-option">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown nav-option">
+              <a class="nav-link active about" href="about.html" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="" aria-expanded="false">
+                About Us <span><i class="fa-solid fa-circle-chevron-down dropdown_icon1 ps-1"></i></span> </a>
+              <a id="dropdown_show" class="" style="text-decoration: none;" href="" data-bs-toggle="dropdown"><i
+                  style="color: #ffffffff;" class="fa-solid fa-chevron-down dropdown_icon2"></i></a>
+              <ul class="dropdown-menu dropdown-box-item shadow-sm border-0 mt-3"
+                aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="why-somikorn.html">Why Somikoron</a></li>
+                <li><a class="dropdown-item" href="mission-vision.html">Mission & Vision</a></li>
+                <li><a class="dropdown-item" href="team.html">Our Team</a></li>
               </ul>
-              <button id="bar" class="btn side_bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-              </button>
-  
-              <div class="offcanvas offcanvas-end border-0 shadow" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title p-3" id="offcanvasScrollingLabel">About Us</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <p class="p-3 offcanvas_text">Somikoron Ai Solutions is an end to end data company specializing in Data Strategy, Engineering and Analytics.</p>
-                  <img id="offcanvas_image" src="asset/image/home_page/offcanvas.png" alt="">
-  
-                  <h5 class="mt-5 mb-5">Contact Us</h5>
-                  <p class="offcanvas_info"><i class="fa-solid fa-phone" style="padding-right: 10px;"></i>+1 310 318 1202</p>
-                  <p class="offcanvas_info"><i class="fa-solid fa-envelope" style="padding-right: 10px;"></i>somikoronai@gmail.com</p>
-                  <p class="offcanvas_info"><i class="fa-solid fa-location-dot" style="padding-right: 13px;"></i>3016 33rd Street Astoria, NY 11102 USA</p>
-                </div>
-              </div>
+            </li>
+            <li class="nav-item dropdown nav-option">
+              <a class="nav-link active about" href="services.html" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="" aria-expanded="false">
+                Services <span><i class="fa-solid fa-circle-chevron-down dropdown_icon1 ps-1"></i></span> </a>
+              <a id="dropdown_show" class="" style="text-decoration: none;" href="" data-bs-toggle="dropdown"><i
+                  style="color: #ffffffff;" class="fa-solid fa-chevron-down dropdown_icon2"></i></a>
+              <ul class="dropdown-menu dropdown-box-item shadow-sm border-0 mt-3"
+                aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="recommendation-engine.html">Recommendation Engine</a></li>
+                <li><a class="dropdown-item" href="insurance-analytics.html">Insurance Analytics</a></li>
+                <li><a class="dropdown-item" href="data-science-consulting.html">Data Science Consulting</a></li>
+              </ul>
+            </li>
+            <li class="nav-item nav-option">
+              <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item nav-option">
+              <a class="nav-link active" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <button id="bar" class="btn side_bars" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+          </button>
+
+          <div class="offcanvas offcanvas-end border-0 shadow" data-bs-scroll="true" data-bs-backdrop="false"
+            tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title p-3" id="offcanvasScrollingLabel">About Us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p class="p-3 offcanvas_text">Somikoron Ai Solutions is an end to end data company specializing in Data
+                Strategy, Engineering and Analytics.</p>
+              <img id="offcanvas_image" src="asset/image/home_page/offcanvas.png" alt="">
+
+              <h5 class="mt-5 mb-5">Contact Us</h5>
+              <p class="offcanvas_info"><i class="fa-solid fa-phone" style="padding-right: 10px;"></i>+1 310 318 1202
+              </p>
+              <p class="offcanvas_info"><i class="fa-solid fa-envelope"
+                  style="padding-right: 10px;"></i>somikoronai@gmail.com</p>
+              <p class="offcanvas_info"><i class="fa-solid fa-location-dot" style="padding-right: 13px;"></i>3016 33rd
+                Street Astoria, NY 11102 USA</p>
             </div>
           </div>
-        </nav>
-
-        <!-- Second Part Start -->
-
-        <div class="container mb-5">
-            <div class="row p-3">
-                <div class="col-12 col-md-12 col-lg-6">
-                    <h1 class="animate__animated animate__slideInDown service_title text-start mt-5 mb-5">Data Science Consulting</h1>
-                    <p class="recomendation_engine_text animate__animated animate__slideInLeft" data-aos="fade-up">Data-Driven Decision Making Transforming Businesses through Expert Data Science Consulting.</p>
-                    <p class="recomendation_engine_text animate__animated animate__slideInUp" data-aos="fade-up">Be Data’s experienced team develops technical solutions that translate data strategy into robust, scalable architecture. Our engineering team focuses on generating value quickly, simplifying technical complexity, and integrating data across all parts of the organisation.</p>
-                    <p class="recomendation_engine_text" data-aos="fade-up">
-                      <h4 class="service_title text-start mt-5 mb-5 animate__animated animate__slideInUp">Our Solutions include:</h4>
-                      <div class="row animate__animated animate__slideInUp">
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <li>Data Maturity Assessments</li>
-                            <li>Executional Roadmaps</li>
-                            <li>KPI Frameworks</li>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-6">
-                          <li>KPI Frameworks</li>
-                          <li>Monetisation Models</li>
-                          <li>Subscription Strategy</li>
-                        </div>
-                      </div>
-                    </p>
-            </div>
-              <div data-aos="fade-up" class="col-12 col-md-12 col-lg-6">
-                <img class="recomendation_engine_bg mt-5 w-75" src="asset/image/services/data_science_consultency/consulting.svg" alt="">
-              </div>
-            </div>
-          </div>
-        <!-- Second Part End -->
-
-        <!-- Third Part Start -->
-
-        
-
-        <!-- Third Part End -->
-
-
-        <!-- Fourth Part Start -->
-        
-
-        <!-- Fourth Part End -->
-    </main>
-
-
-
-
-<!-- Footer Start #f1f4f7; -->
-<footer class="footer mt-auto">
-  <div style="background-color:#083f88">
-    <div class="container pt-5 text-white">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 col-xl-3 p-3">
-          <span><a href=""><img class="footer_logo" src="./asset/image/logo_white.svg" alt=""></a></span>
-          <p class="follow_text">Elevate with AI. <br>
-            Revolutionize Your Enterprise.</p>
-          <p class="follow_text pt-4">Follow Us</p>
-          <a target="_blank" href="https://www.facebook.com/profile.php?id=100078701481706"><i class="footer_social_icon fa-brands fa-square-facebook" style="color: #ffffffff;"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/company/somikoron/"><i class="footer_social_icon fa-brands fa-linkedin" style="color: #ffffffff;"></i></a>
-          <a target="_blank" href=""><i class="footer_social_icon fa-brands fa-square-threads" style="color: #ffffffff;"></i></a>
-          <a target="_blank" href="https://twitter.com/somikoronai"><i class="footer_social_icon fa-brands fa-square-x-twitter" style="color: #ffffffff;"></i></a>
-          <a target="_blank" href=""><i class="footer_social_icon fa-brands fa-square-instagram" style="color: #ffffffff;"></i></a>
-          <a target="_blank" href="https://www.youtube.com/@somikoronai5521"><i class="footer_social_icon fa-brands fa-square-youtube" style="color: #ffffffff;"></i></a>
-        </div>
-        <div id="menu_bar" class="col-12 col-md-6 col-lg-3 col-xl-3 p-3">
-          <h5>Menu</h5> <br>
-          <p><a class="footer_link" href="index.html">Home</a></p>
-          <p><a class="footer_link" href="about-us.html">About Us</a></p>
-          <p><a class="footer_link" href="">Services</a></p>
-          <p><a class="footer_link" href="blog.html">Blog</a></p>
-          <p><a class="footer_link" href="">Contact Us</a></p>
-        </div>
-        <div id="footer_service" class="col-12 col-md-6 col-lg-3 col-xl-3 p-3">
-          <h5>Services</h5> <br>
-          <p><a class="footer_link" href="">Recommendation Engine</a></p>
-          <p><a class="footer_link" href="">Insurance Analytics</a></p>
-          <p><a class="footer_link" href="">Data Science Consulting</a></p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 col-xl-3 p-3">
-          <h5>Contact Us</h5> <br>
-          <p class="footer_address"><i class="fa-solid fa-phone" style="padding-right: 10px;"></i>+1 310 318 1202</p>
-          <p class="footer_address"><i class="fa-solid fa-envelope" style="padding-right: 10px;"></i>somikoronai@gmail.com</p>
-          <p class="footer_address"><i class="fa-solid fa-location-dot" style="padding-right: 13px;"></i>3016 33rd Street Astoria, <br><span class="address"> NY 11102 USA</span></p>
         </div>
       </div>
-      <p class="copy_right pt-3 pb-4">© Somikoron AI, All Right Reserved.</p>
+    </nav>
+
+    <!-- Second Part Start -->
+
+    <div class="container mb-5">
+      <div class="row p-3">
+        <div class="col-12 col-md-12 col-lg-6">
+          <h1 class="animate__animated animate__slideInDown service_title text-start mt-5 mb-5">Data Science Consulting
+          </h1>
+          <p class="recomendation_engine_text animate__animated animate__slideInLeft" data-aos="fade-up">Data-Driven
+            Decision Making Transforming Businesses through Expert Data Science Consulting.</p>
+          <p class="recomendation_engine_text animate__animated animate__slideInUp" data-aos="fade-up">Be Data’s
+            experienced team develops technical solutions that translate data strategy into robust, scalable
+            architecture. Our engineering team focuses on generating value quickly, simplifying technical complexity,
+            and integrating data across all parts of the organisation.</p>
+          <p class="recomendation_engine_text" data-aos="fade-up">
+          <h4 class="service_title text-start mt-5 mb-5 animate__animated animate__slideInUp">Our Solutions include:
+          </h4>
+          <div class="row animate__animated animate__slideInUp">
+            <div class="col-12 col-md-6 col-lg-6">
+              <li>Data Maturity Assessments</li>
+              <li>Executional Roadmaps</li>
+              <li>KPI Frameworks</li>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+              <li>KPI Frameworks</li>
+              <li>Monetisation Models</li>
+              <li>Subscription Strategy</li>
+            </div>
+          </div>
+          </p>
+        </div>
+        <div data-aos="fade-up" class="col-12 col-md-12 col-lg-6">
+          <img class="recomendation_engine_bg mt-5 w-75"
+            src="asset/image/services/data_science_consultency/consulting.svg" alt="">
+        </div>
+      </div>
     </div>
-  </div>
-</footer>
+    <!-- Second Part End -->
+
+    <!-- Third Part Start -->
 
 
-<!-- Animation -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
-    
-    <script>
-      AOS.init();
-    </script>
-<!-- Custom Js -->
-<script src="asset/js/scroll.js"></script>
+
+    <!-- Third Part End -->
+
+
+    <!-- Fourth Part Start -->
+
+
+    <!-- Fourth Part End -->
+  </main>
+
+
+
+
+  <!-- Footer Start #f1f4f7; -->
+  <footer class="footer mt-auto">
+    <div style="background-color:#083f88">
+      <div class="container pt-5 text-white">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 col-xl-3 p-3">
+            <span><a href=""><img class="footer_logo" src="./asset/image/logo_white.svg" alt=""></a></span>
+            <p class="follow_text">Elevate with AI. <br>
+              Revolutionize Your Enterprise.</p>
+            <p class="follow_text pt-4">Follow Us</p>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100078701481706"><i
+                class="footer_social_icon fa-brands fa-square-facebook" style="color: #ffffffff;"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/somikoron/"><i
+                class="footer_social_icon fa-brands fa-linkedin" style="color: #ffffffff;"></i></a>
+            <a target="_blank" href=""><i class="footer_social_icon fa-brands fa-square-threads"
+                style="color: #ffffffff;"></i></a>
+            <a target="_blank" href="https://twitter.com/somikoronai"><i
+                class="footer_social_icon fa-brands fa-square-x-twitter" style="color: #ffffffff;"></i></a>
+            <a target="_blank" href=""><i class="footer_social_icon fa-brands fa-square-instagram"
+                style="color: #ffffffff;"></i></a>
+            <a target="_blank" href="https://www.youtube.com/@somikoronai5521"><i
+                class="footer_social_icon fa-brands fa-square-youtube" style="color: #ffffffff;"></i></a>
+          </div>
+          <div id="menu_bar" class="col-12 col-md-6 col-lg-3 col-xl-3 p-3">
+            <h5>Menu</h5> <br>
+            <p><a class="footer_link" href="index.html">Home</a></p>
+            <p><a class="footer_link" href="about.html">About Us</a></p>
+            <p><a class="footer_link" href="services.html">Services</a></p>
+            <p><a class="footer_link" href="blog.html">Blog</a></p>
+            <p><a class="footer_link" href="contact.html">Contact Us</a></p>
+          </div>
+          <div id="footer_service" class="col-12 col-md-6 col-lg-3 col-xl-3 p-3">
+            <h5>Services</h5> <br>
+            <p><a class="footer_link" href="recommendation-engine.html">Recommendation Engine</a></p>
+            <p><a class="footer_link" href="insurance-analytics.html">Insurance Analytics</a></p>
+            <p><a class="footer_link" href="data-science-consulting.html">Data Science Consulting</a></p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 col-xl-3 p-3">
+            <h5>Contact Us</h5> <br>
+            <p class="footer_address"><i class="fa-solid fa-phone" style="padding-right: 10px;"></i>+1 310 318 1202</p>
+            <p class="footer_address"><i class="fa-solid fa-envelope"
+                style="padding-right: 10px;"></i>somikoronai@gmail.com</p>
+            <p class="footer_address"><i class="fa-solid fa-location-dot" style="padding-right: 13px;"></i>3016 33rd
+              Street Astoria, <br><span class="address"> NY 11102 USA</span></p>
+          </div>
+        </div>
+        <p class="copy_right pt-3 pb-4">© Somikoron AI, All Right Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Animation -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    AOS.init();
+  </script>
+  <!-- Custom Js -->
+  <script src="asset/js/scroll.js"></script>
 </body>
+
 </html>
