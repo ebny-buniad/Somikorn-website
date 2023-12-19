@@ -896,6 +896,63 @@ h5{
 
 
 
+
+/* ================================= BLOG START ============================== */
+.search_button{
+    background-color: #083f88 !important;
+    color: #ffffffff !important;
+    font-size: 13px !important;
+}
+.search_button:hover{
+    background-color: #00243A !important;
+}
+.search_button:focus{
+    color: #939393;
+    background-color: #ffffffff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.blog_title_image{
+    width: 100%;
+}
+.blog_title{
+    font-family: 'K2D';
+    font-size: 16px;
+}
+.blog_link{
+    text-decoration: none;
+    color: #083f88;
+}
+.blog_card_title{
+    font-family: 'K2D';
+}
+.blog_read_more-button{
+    text-decoration: none;
+    background-color: #083f88;
+    color: #ffffffff;
+    font-size: 13px;
+    padding: 8px 18px 8px 18px;
+    border-radius: 3px;
+    transition: .3s;
+}
+.blog_read_more-button:hover{
+    background-color: #00243A;
+    color: #ffffffff;
+}
+
+.page-link:focus{
+    color: #939393;
+    background-color: #ffffffff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+/* ================================= BLOG END ============================== */
+
+
 /* ================================= CONTACT US START ========================== */
 
 .form-control{
