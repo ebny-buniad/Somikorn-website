@@ -953,6 +953,69 @@ h5{
 /* ================================= BLOG END ============================== */
 
 
+/* ================================= SINGLE BLOG START ============================== */
+.single_blog_page_title{
+    font-family: 'K2D';
+    margin-top: 30px;
+}
+
+@media (min-width: 320px){ 
+    .single_blog_page_title{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+}
+@media (min-width: 768px){ 
+    .single_blog_page_title{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1024px){ 
+    .single_blog_page_title{
+        margin-top: 100px;
+        font-size: 30px;
+    }
+}
+@media (min-width: 1200px){ 
+    .single_blog_page_title{
+        margin-top: 100px;
+        font-size: 45px;
+    }
+}
+
+.single_page_blog_header_image{
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.single_blog_main_image{
+    max-width: 100%;
+}
+
+.blog_text_title{
+    font-family: 'K2D';
+}
+.blog_para_title{
+    font-family: 'K2D';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blog_text{
+    text-align: justify;
+}
+
+.blog__point_list{
+    font-weight: 900;
+}
+
+/* ================================= SINGLE BLOG END ============================== */
+
+
+
+
 /* ================================= CONTACT US START ========================== */
 
 .form-control{
@@ -980,68 +1043,28 @@ h5{
     outline: 0;
     box-shadow: none !important;
 }
-@media (min-width: 320px){
-    iframe{
-        width: 278px;
-        height: 200px;
-    }
+
+iframe{
+    width: 100% !important;
+    height: 400px;
 }
-@media (min-width: 375px){
-    iframe{
-        width: 332px;
-        height: 200px;
-    }
-}
-@media (min-width: 400px){
-    iframe{
-        width: 370px !important;
-        height: 200px;
-    }
-}
-@media (min-width: 425px){
-    iframe{
-        width: 385px !important;
-        height: 200px;
-    }
-}
-@media (min-width: 480px){
-    iframe{
-        width: 678px !important;
-        height: 200px;
-    }
-}
-@media (min-width: 768px){
-    iframe{
-        width: 678px !important;
-        height: 300px;
-    }   
+
+@media (min-width: 768px){ 
     .address_details{
         margin-left: 50px;
     }
 }
 @media (min-width: 1024px){
-    iframe{
-        width: 427px !important;
-        height: 400px;
-    }
     .address_details{
         margin-left: 100px;
     }
 }
 @media (min-width: 1200px){
-    iframe{
-        width: 518px !important;
-        height: 400px;
-    }
     .address_details{
         margin-left: 100px;
     }
 }
 @media (min-width: 1440px){
-    iframe{
-        width: 606px !important;
-        height: 400px;
-    }
     .address_details{
         margin-left: 100px;
     }
