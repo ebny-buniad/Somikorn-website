@@ -965,16 +965,6 @@ h5{
         margin-bottom: 30px;
     }
 }
-@media (min-width: 768px){ 
-    .single_blog_page_title{
-    }
-}
-
-@media (min-width: 1024px){ 
-    .single_blog_page_title{
-        
-    }
-}
 @media (min-width: 1200px){ 
     .single_blog_page_title{
         margin-top: 150px;
@@ -983,7 +973,7 @@ h5{
 
 
 .single_page_blog_header_image{
-    max-width: 70%;
+    max-width: 60%;
     margin: auto;
     display: block;
 }
