@@ -950,50 +950,44 @@ h5{
     box-shadow: none !important;
 }
 
+
 /* ================================= BLOG END ============================== */
 
 
 /* ================================= SINGLE BLOG START ============================== */
 .single_blog_page_title{
     font-family: 'K2D';
-    margin-top: 30px;
 }
 
 @media (min-width: 320px){ 
     .single_blog_page_title{
-        font-size: 25px;
         margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 @media (min-width: 768px){ 
     .single_blog_page_title{
-        font-size: 30px;
-        margin-top: 80px;
     }
 }
 
 @media (min-width: 1024px){ 
     .single_blog_page_title{
-        margin-top: 100px;
-        font-size: 30px;
+        
     }
 }
 @media (min-width: 1200px){ 
     .single_blog_page_title{
-        margin-top: 100px;
-        font-size: 45px;
+        margin-top: 150px;
     }
 }
 
+
 .single_page_blog_header_image{
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
     display: block;
 }
 
-.single_blog_main_image{
-    max-width: 100%;
-}
 
 .blog_text_title{
     font-family: 'K2D';
