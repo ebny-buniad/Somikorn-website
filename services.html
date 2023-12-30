@@ -147,7 +147,7 @@
 
         <!-- Recommendation Engine Start -->
 
-        <div class="container mb-5">
+        <div class="container mb-5 grid-demo">
             <div class="row p-3">
                 <div class="col-12 col-md-12 col-lg-6">
                     <h1 class="animate__animated animate__slideInDown service_title text-start mt-5 mb-5">Recommendation
@@ -181,9 +181,8 @@
                     <p class="mt-5"><a class="try_demo_button" href="#">Try Demo<i class="fa-solid fa-angles-right"
                                 style="color: #ffffff; font-size: 12px; margin-left: 8px;"></i></a></p>
                 </div>
-                <div data-aos="fade-up" class="col-12 col-md-12 col-lg-6">
-                    <img class="recomendation_engine_bg"
-                        src="asset/image/test-image.jpg" alt="">
+                <div data-aos="fade-up" class="col-12 col-md-12 col-lg-6 grid-quarter">
+                    <img class="recomendation_engine_bg about_us_images mx-auto" src="asset/image/test-image.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -192,7 +191,7 @@
 
         <!-- Insurance Analytics Start -->
 
-        <div class="container mb-5">
+        <div class="container mb-5 grid-demo">
             <div class="row p-3">
                 <div class="col-12 col-md-12 col-lg-6">
                     <h1 data-aos="fade-up" class="service_title text-start mt-5 mb-5">Insurance
@@ -225,9 +224,8 @@
                     </div>
                     </p>
                 </div>
-                <div data-aos="fade-up" class="col-12 col-md-12 col-lg-6">
-                    <img class="recomendation_engine_bg mt-5 w-100"
-                        src="asset/image/test-image.jpg" alt="">
+                <div data-aos="fade-up" class="col-12 col-md-12 col-lg-6 grid-quarter">
+                    <img class="recomendation_engine_bg about_us_images mx-auto" src="asset/image/test-image.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -236,7 +234,7 @@
 
         <!-- Data Science Consulating Start -->
 
-        <div class="container mb-5">
+        <div class="container mb-5 grid-demo">
             <div class="row p-3">
                 <div class="col-12 col-md-12 col-lg-6">
                     <h1 data-aos="fade-up" class="service_title text-start mt-5 mb-5">Data Science
@@ -269,9 +267,8 @@
                     </div>
                     </p>
                 </div>
-                <div data-aos="fade-up" class="col-12 col-md-12 col-lg-6">
-                    <img class="recomendation_engine_bg mt-5"
-                        src="asset/image/test-image.jpg" alt="">
+                <div data-aos="fade-up" class="col-12 col-md-12 col-lg-6 grid-quarter">
+                    <img class="recomendation_engine_bg about_us_images mx-auto" src="asset/image/test-image.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -331,7 +328,10 @@
                             Street Astoria, <br><span class="address"> NY 11102 USA</span></p>
                     </div>
                 </div>
-                <p class="copy_right pt-3 pb-4">© Somikoron AI, All Right Reserved.</p>
+                <p class="copy_right pb-5">
+                    &copy;
+                    <script>document.write(new Date().getFullYear());</script> Somikoron
+                </p>
             </div>
         </div>
     </footer>
@@ -349,6 +349,26 @@
     </script>
     <!-- Custom Js -->
     <script src="asset/js/scroll.js"></script>
+    <!-- Image Size Scripit -->
+    <script src="js/jquery-imagefill.js"></script>
+    <script>
+        // GRID DEMO
+        $('.grid-quarter').imagefill();
+        $('.grid-demo').queue(function (next) {
+            $(this).animate({ width: 320 }, 4000).animate({ width: 640 }, 4000);
+            $(this).queue(arguments.callee);
+            next();
+        });
+    </script>
+
+    <script>
+        var _gaq = [['_setAccount', 'UA-2821890-9'], ['_trackPageview']];
+        (function (d, t) {
+            var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            g.src = '//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g, s)
+        }(document, 'script'));
+    </script>
 </body>
 
 </html>

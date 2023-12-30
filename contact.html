@@ -285,7 +285,10 @@
               Street Astoria, <br><span class="address"> NY 11102 USA</span></p>
           </div>
         </div>
-        <p class="copy_right pt-3 pb-4">© Somikoron AI, All Right Reserved.</p>
+        <p class="copy_right pb-5">
+          &copy;
+          <script>document.write(new Date().getFullYear());</script> Somikoron
+        </p>
       </div>
     </div>
   </footer>
@@ -303,6 +306,26 @@
   </script>
   <!-- Custom Js -->
   <script src="asset/js/scroll.js"></script>
+  <!-- Image Size Scripit -->
+  <script src="js/jquery-imagefill.js"></script>
+  <script>
+    // GRID DEMO
+    $('.grid-quarter').imagefill();
+    $('.grid-demo').queue(function (next) {
+      $(this).animate({ width: 320 }, 4000).animate({ width: 640 }, 4000);
+      $(this).queue(arguments.callee);
+      next();
+    });
+  </script>
+
+  <script>
+    var _gaq = [['_setAccount', 'UA-2821890-9'], ['_trackPageview']];
+    (function (d, t) {
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = '//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+  </script>
 </body>
 
 </html>

@@ -137,7 +137,7 @@
     <!-- Home Page Carousel Title (Elevate With AI) Start -->
 
     <section id="second_part">
-      <div class="container">
+      <div class="container grid-demo">
         <div class="row p-3">
           <div class="col-12 col-md-6 col-lg-6 col-xl-6">
             <h1 class="animate__animated animate__fadeInDown first_part_title">Elevate With AI. <br>Revolutionize your
@@ -148,7 +148,7 @@
             <a style="margin-left: 20PX;" class="animate__animated animate__fadeInDown elevate_section_link"
               href="contact.html">CONTACT US</a>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-6 p-0">
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 p-0 grid-quarter">
             <img id="first_part_bg" class="animate__animated animate__fadeInRight"
               src="asset/image/home_page/first_part_bg.svg" alt="">
           </div>
@@ -166,7 +166,8 @@
           <h1 class="eliminate_guesswork_title">Eliminate the guesswork, <br>Deliver Continuous Improvements</h1>
         </div>
         <div data-aos="fade-up" class="p-3">
-          <p class="eliminate_guesswork_text">Machine learning and AI monitoring systems address mission critical needs for
+          <p class="eliminate_guesswork_text">Machine learning and AI monitoring systems address mission critical needs
+            for
             businesses and their customers every day, yet often fail to perform in the real world. Somikoron is an
             end-to-end observability platform to accelerate detecting and resolving issues for your AI models at large.
           </p>
@@ -275,7 +276,10 @@
               Street Astoria, <br><span class="address"> NY 11102 USA</span></p>
           </div>
         </div>
-        <p class="copy_right pt-3 pb-4">© Somikoron AI, All Right Reserved.</p>
+        <p class="copy_right pb-5">
+          &copy;
+          <script>document.write(new Date().getFullYear());</script> Somikoron
+        </p>
       </div>
     </div>
   </footer>
@@ -292,6 +296,26 @@
   </script>
   <!-- Custom Js -->
   <script src="asset/js/scroll.js"></script>
+  <!-- Image Size Scripit -->
+  <script src="js/jquery-imagefill.js"></script>
+  <script>
+    // GRID DEMO
+    $('.grid-quarter').imagefill();
+    $('.grid-demo').queue(function (next) {
+      $(this).animate({ width: 320 }, 4000).animate({ width: 640 }, 4000);
+      $(this).queue(arguments.callee);
+      next();
+    });
+  </script>
+
+  <script>
+    var _gaq = [['_setAccount', 'UA-2821890-9'], ['_trackPageview']];
+    (function (d, t) {
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = '//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+  </script>
 </body>
 
 </html>

@@ -9,13 +9,25 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     font-size: 14px !important;
     font-family: 'Noto Sans Bengali', sans-serif !important;
     font-family: 'Poppins', sans-serif !important;
-    margin: auto;
-    padding: auto;
+    margin: 0 !important;
+    padding: 0 !important;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+@media(min-width:320px){
+    body{
+        margin-top: 3rem !important;
+    }
+}
+@media(min-width:600px){
+    body{
+        margin-top: 5rem !important;
+    }
 }
 
 
@@ -114,12 +126,13 @@ body {
         padding: 2px 6px 2px 6px;
         border-radius: 3px;
         position: absolute;
-        left: 97.01%;
+        left: 96.01%;
         top: 0px;
     }
 }
 
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
     body {
         margin-top: 4.5rem !important;
     }
@@ -152,6 +165,41 @@ body {
         left: 98.2%;
         top: 6px;
 
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin-top: 4.5rem !important;
+    }
+
+    #web_logo {
+        width: 220px;
+    }
+
+    .side_bars {
+        display: none !important;
+    }
+
+    .dropdown_icon1 {
+        display: none !important;
+    }
+
+    .dropdown_icon2 {
+        display: inline-flex !important;
+    }
+
+    .about {
+        position: relative;
+    }
+
+    #dropdown_show {
+        background-color: #083f88;
+        padding: 2px 6px 2px 6px;
+        border-radius: 3px;
+        position: absolute;
+        left: 98.2%;
+        top: 6px;
     }
 }
 
@@ -411,6 +459,27 @@ body {
     }
 }
 
+@media (max-width: 740px) {
+    #second_part {
+        margin-top: 3rem;
+    }
+
+    .first_part_title {
+        font-weight: 600;
+        font-size: 22px;
+        margin-bottom: 1.5rem;
+    }
+
+    .first_part_para {
+        margin-bottom: 2rem;
+        font-size: 14px;
+    }
+
+    #first_part_bg {
+        margin-top: 4rem !important;
+    }
+}
+
 @media (min-width: 768px) {
     .first_part_title {
         font-weight: 600;
@@ -469,6 +538,15 @@ body {
 }
 
 @media (max-width: 500px) {
+    .eliminate_guesswork_title {
+        font-family: 'K2D';
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 740px) {
     .eliminate_guesswork_title {
         font-family: 'K2D';
         text-align: center;

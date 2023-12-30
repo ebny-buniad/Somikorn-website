@@ -137,7 +137,7 @@
     <!-- Why Somikoron First Part Content Start -->
 
     <section>
-      <div class="container overflow-hidden">
+      <div class="container overflow-hidden grid-demo">
         <div class="row p-3">
           <div class="col-12 col-md-12 col-lg-6">
             <h1 class="animate__animated animate__slideInLeft service_title text-start about_us_title">Our Modular
@@ -156,7 +156,8 @@
               adipisicing elit. Nobis, rem quo doloremque beatae animi amet dolores alias eos sed laborum in corrupti,
               quisquam magnam et? Ducimus velit earum sed alias?</p>
           </div>
-          <div data-aos="fade-up" class="animate__animated animate__slideInRight col-12 col-md-12 col-lg-6">
+          <div data-aos="fade-up"
+            class="animate__animated animate__slideInRight col-12 col-md-12 col-lg-6 grid-quarter">
             <img class="about_us_images" src="asset/image/test-image.jpg" alt="">
           </div>
         </div>
@@ -248,7 +249,10 @@
               Street Astoria, <br><span class="address"> NY 11102 USA</span></p>
           </div>
         </div>
-        <p class="copy_right pt-3 pb-4">© Somikoron AI, All Right Reserved.</p>
+        <p class="copy_right pb-5">
+          &copy;
+          <script>document.write(new Date().getFullYear());</script> Somikoron
+        </p>
       </div>
     </div>
   </footer>
@@ -266,6 +270,26 @@
   </script>
   <!-- Custom Js -->
   <script src="asset/js/scroll.js"></script>
+  <!-- Image Size Scripit -->
+  <script src="js/jquery-imagefill.js"></script>
+  <script>
+    // GRID DEMO
+    $('.grid-quarter').imagefill();
+    $('.grid-demo').queue(function (next) {
+      $(this).animate({ width: 320 }, 4000).animate({ width: 640 }, 4000);
+      $(this).queue(arguments.callee);
+      next();
+    });
+  </script>
+
+  <script>
+    var _gaq = [['_setAccount', 'UA-2821890-9'], ['_trackPageview']];
+    (function (d, t) {
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = '//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+  </script>
 </body>
 
 </html>

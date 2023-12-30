@@ -137,9 +137,9 @@
     <!-- About Us Start -->
 
     <section>
-      <div class="container overflow-hidden mt-5">
+      <div class="container overflow-hidden mt-5 grid-demo">
         <div class="row p-3">
-          <div class="col-12 col-md-12 col-lg-6 col-xl-6 p-0 animate__animated animate__fadeInLeft">
+          <div class="col-12 col-md-12 col-lg-6 col-xl-6 p-0 animate__animated animate__fadeInLeft grid-quarter">
             <img class="about_us_images mx-auto d-block mt-5" src="asset/image/test-image.jpg" alt="">
           </div>
           <div class="col-12 col-md-12 col-lg-6 col-xl-6">
@@ -167,7 +167,7 @@
     <!-- Why Somikoron Start -->
 
     <section>
-      <div class="container overflow-hidden">
+      <div class="container overflow-hidden grid-demo">
         <div class="row p-3">
           <div class="col-12 col-md-12 col-lg-6">
             <h1 data-aos="fade-up" class="service_title text-start about_us_title">Our Modular Approach</h1>
@@ -186,7 +186,7 @@
               adipisicing elit. Nobis, rem quo doloremque beatae animi amet dolores alias eos sed laborum in corrupti,
               quisquam magnam et? Ducimus velit earum sed alias?</p>
           </div>
-          <div data-aos="fade-left" class="col-12 col-md-12 col-lg-6">
+          <div data-aos="fade-left" class="col-12 col-md-12 col-lg-6 grid-quarter">
             <img class="mx-auto d-block mt-5 about_us_images" src="asset/image/test-image.jpg" alt="">
           </div>
         </div>
@@ -198,11 +198,10 @@
     <!-- Our Mission Start -->
 
     <section>
-      <div class="container overflow-hidden">
+      <div class="container overflow-hidden grid-demo">
         <div class="row p-3">
-          <div data-aos="fade-right" class="col-12 col-md-12 col-lg-6">
-            <img class="mx-auto d-block mt-5 about_us_images" src="asset/image/test-image.jpg"
-              alt="">
+          <div data-aos="fade-right" class="col-12 col-md-12 col-lg-6 grid-quarter">
+            <img class="mx-auto d-block mt-5 about_us_images" src="asset/image/test-image.jpg" alt="">
           </div>
           <div class="col-12 col-md-12 col-lg-6">
             <h1 data-aos="fade-up" class="service_title text-start about_us_title">Our Mission</h1>
@@ -223,7 +222,7 @@
     <!-- Our Vission Start -->
 
     <section>
-      <div class="container overflow-hidden">
+      <div class="container overflow-hidden grid-demo">
         <div class="row p-3">
           <div class="col-12 col-md-12 col-lg-6">
             <h1 data-aos="fade-up" class="service_title text-start about_us_title">Our Vision</h1>
@@ -237,7 +236,7 @@
               doloremque beatae animi amet dolores alias eos sed laborum in corrupti, quisquam magnam et? Ducimus velit
               earum sed alias?</p>
           </div>
-          <div data-aos="fade-left" class="col-12 col-md-12 col-lg-6">
+          <div data-aos="fade-left" class="col-12 col-md-12 col-lg-6 grid-quarter">
             <img class="w-80 mx-auto d-block about_us_images" src="asset/image/test-image.jpg" alt="">
           </div>
         </div>
@@ -249,14 +248,14 @@
     <!-- Our Team Start -->
 
     <section>
-      <div class="container overflow-hidden">
+      <div class="container overflow-hidden grid-demo">
         <h1 data-aos="fade-up" class="service_title text-center mb-4">Our Leadership Team</h1>
 
         <div class="mb-5">
           <div class="row gx-4 gy-4 p-4">
             <div data-aos="fade-up" class="col-12 col-md-4 col-lg-4">
               <div class="rounded shadow-sm">
-                <div><img class="team_image" src="asset/image/test-image.jpg" alt=""></div>
+                <div class="grid-quarter"><img class="team_image" src="asset/image/test-image.jpg" alt=""></div>
                 <h6 class="team_name">Dr. Nurur Rahman</h6>
                 <p class="text-center">Founder & CEO</p>
                 <div class="d-flex justify-content-center pb-2">
@@ -267,7 +266,7 @@
             </div>
             <div data-aos="fade-up" class="col-12 col-md-4 col-lg-4">
               <div class="rounded shadow-sm">
-                <div><img class="team_image" src="asset/image/test-image.jpg" alt=""></div>
+                <div class="grid-quarter"><img class="team_image" src="asset/image/test-image.jpg" alt=""></div>
                 <h6 class="team_name">Dr. Nurur Rahman</h6>
                 <p class="text-center">Founder & CEO</p>
                 <div class="d-flex justify-content-center pb-2">
@@ -278,7 +277,7 @@
             </div>
             <div data-aos="fade-up" class="col-12 col-md-4 col-lg-4">
               <div class="rounded shadow-sm">
-                <div><img class="team_image" src="asset/image/test-image.jpg" alt=""></div>
+                <div class="grid-quarter"><img class="team_image" src="asset/image/test-image.jpg" alt=""></div>
                 <h6 class="team_name">Dr. Nurur Rahman</h6>
                 <p class="text-center">Founder & CEO</p>
                 <div class="d-flex justify-content-center pb-2">
@@ -336,7 +335,10 @@
               Street Astoria, <br><span class="address"> NY 11102 USA</span></p>
           </div>
         </div>
-        <p class="copy_right pt-3 pb-4">© Somikoron AI, All Right Reserved.</p>
+        <p class="copy_right pb-5">
+          &copy;
+          <script>document.write(new Date().getFullYear());</script> Somikoron
+        </p>
       </div>
     </div>
   </footer>
@@ -353,6 +355,26 @@
   </script>
   <!-- Custom Js -->
   <script src="asset/js/scroll.js"></script>
+  <!-- Image Size Scripit -->
+  <script src="js/jquery-imagefill.js"></script>
+  <script>
+    // GRID DEMO
+    $('.grid-quarter').imagefill();
+    $('.grid-demo').queue(function (next) {
+      $(this).animate({ width: 320 }, 4000).animate({ width: 640 }, 4000);
+      $(this).queue(arguments.callee);
+      next();
+    });
+  </script>
+
+  <script>
+    var _gaq = [['_setAccount', 'UA-2821890-9'], ['_trackPageview']];
+    (function (d, t) {
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = '//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+  </script>
 </body>
 
 </html>
